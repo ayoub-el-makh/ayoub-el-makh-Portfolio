@@ -1,0 +1,76 @@
+div.nav-container{
+    width: 20%;
+    background-color: var(--nav-bg);
+    height: 100vh;
+    position: fixed;
+    text-align: center;
+}
+div.logo{
+    width: 55%;
+    margin: 2.3rem auto;
+}
+
+div.logo img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+div.details h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+div.details span:first-of-type{
+    color: var(--blue-trans);
+    font-size: 0.8rem;
+}
+
+div.details span:last-of-type{
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+}
+
+div.navigation{
+    margin-top: 4.5rem;
+}
+div.navigation ul li{
+    font-family: sans-serif;
+    margin-top: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+div.navigation ul li a::after{
+    content: '';
+    background-color: var(--blue-trans);
+    height: 2px;
+    display: block;
+    width: 0;
+    transition: width ease 0.2s ;
+    margin: 0 auto;
+}
+
+div.navigation ul li a:hover::after{
+    width: 100%;
+}
+
+div.navigation ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight:normal;
+    font-size: 0.9rem;
+}
+
+div.navigation ul li :hover{
+    color: var(--blue-trans);
+}
+
+div.nav-footer{
+    margin-top: 4.5rem;
+    color: gray;
+    padding: 0 0.8rem;
+}
+div.nav-footer span{
+    font-size: 0.9rem;
+}

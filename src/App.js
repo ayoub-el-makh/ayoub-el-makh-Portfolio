@@ -1,8 +1,11 @@
 import './App.css';
+import SideNavigation from './Components/Header/SideNavigation';
 
 function App() {
   return (
-    <h1>Portfolio</h1>
+    <div className='container'>
+      <SideNavigation />
+    </div>
   );
 }
 
