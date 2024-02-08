@@ -4,6 +4,7 @@ div.nav-container{
     height: 100vh;
     position: fixed;
     text-align: center;
+    z-index: 100;
 }
 div.logo{
     width: 55%;
@@ -73,4 +74,22 @@ div.nav-footer{
 }
 div.nav-footer span{
     font-size: 0.9rem;
+}
+
+.coeur{
+    animation: scale 0.7s ease infinite;
+    display: inline-block;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+        
+    }
+    100%{
+        transform: scale(1);
+    }
 }

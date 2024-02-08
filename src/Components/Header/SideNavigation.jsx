@@ -35,8 +35,11 @@ const SideNavigation = () => {
         </ul>
       </div>
       <div className="nav-footer">
-        <span>© Copyright © {new Date().getFullYear()} All rights reserved | This Portfolio is made with ❤️
-        by</span> <strong>AYOUB</strong>
+        <span>
+          © Copyright © {new Date().getFullYear()} All rights reserved | This
+          Portfolio is made with <span className="coeur">❤️</span> by
+        </span>{" "}
+        <strong>AYOUB</strong>
       </div>
     </div>
   );
